@@ -117,7 +117,4 @@ If you've made it this far and everything looks great, you're done!
 My final suggestion, and this is not only for you to see how many people are playing your game, but so that you don't
 have to give out a really long url to people when they ask what the name of the website is.
 I suggest that you go to bitly.com, tinyurl.com, or any url shortening website, I personally use bitly the most. Follow
-their instructions and soon you'll have a website that you can spread to everyone around you to let them play what you made
-
-I hope you had fun making this and learned something from it in the process. Thank you for playing GetSLHS and for using
-this tutorial to help you make something just like it. Enjoy your game.
+their instructions and soon you'll have a website that you can spread to everyone around you to let them play what you made.
