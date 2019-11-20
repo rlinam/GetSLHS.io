@@ -1,89 +1,56 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>GetSLHS</title>
-
-  <link href="style/main.css" rel="stylesheet" type="text/css">
-  <link rel="shortcut icon" href="getslhs.ico">
-  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
-</head>
-<body>
-  <div class="container">
-    <div class="heading">
-      <h1 class="title">GetSLHS</h1>
-      <div class="scores-container">
-        <div class="score-container">0</div>
-        <div class="best-container">0</div>
-      </div>
-    </div>
-    <p class="game-intro">Combine other high schools to reach <span onclick="document.body.style.background='url(img/petey.png)';"> <strong>South Lakes</strong></span></p>
-
-    <div class="game-container">
-      <div class="game-message">
-        <p></p>
-        <div class="lower">
-	        <a class="keep-playing-button">Keep going</a>
-          <a class="retry-button">Try again</a>
-        </div>
-      </div>
-
-      <div class="grid-container">
-        <div class="grid-row">
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-        </div>
-        <div class="grid-row">
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-        </div>
-        <div class="grid-row">
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-        </div>
-        <div class="grid-row">
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-        </div>
-      </div>
-
-      <div class="tile-container">
-
-      </div>
-    </div>
-
-    <p class="game-explanation">
-      <strong class="important">How to play:</strong> Use your <strong>arrow keys, WASD keys, or swipe </strong> (if you're on mobile) to move the tiles. When two tiles with the same high schools touch, they <strong>merge into one!</strong>
-    </p>
-    <hr>
-    <p>
-    Created by <a href="https://twitter.com/rei_linam"> Rei Linam</a> at South Lakes High School.  Inspired by <a href="https://mitchgu.github.io/GetMIT/"> GetMIT!</a> made by <a href="http://web.mit.edu/mitchgu/www">Mitchell Gu</a>.
-    </p>
-    <hr>
-    Version 1.1.3: Changed South Lakes HS Logo and Icon
-    <hr>
-  </div>
-
-  <script src="js/animframe_polyfill.js"></script>
-  <script src="js/keyboard_input_manager.js"></script>
-  <script src="js/html_actuator.js"></script>
-  <script src="js/grid.js"></script>
-  <script src="js/tile.js"></script>
-  <script src="js/local_score_manager.js"></script>
-  <script src="js/game_manager.js"></script>
-  <script src="js/application.js"></script>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>GetSLHS</title>
+    <style type="text/css">
+      html, body {
+        height: 100%;
+      }
+      body {
+        background-color: #fff;
+        background: radial-gradient(circle at center, #fff 0%, #f8f8f8 75%, #ebebeb 100%);
+        color: #222;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-size: 1rem;
+        line-height: 1.5;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      main {
+        padding: 1rem;
+        text-align: center;
+      }
+      h1 {
+        font-size: 2.5rem;
+        line-height: 1.1;
+        margin: 0;
+      }
+      @media screen and (max-width: 480px) {
+        h1 {
+          font-size: 1.5rem;
+        }
+      }
+      h1::after {
+        content: "";
+        background-color: #ffe800;
+        background: repeating-linear-gradient(45deg, #ffe800, #ffe800 0.5rem, #222 0.5rem, #222 1.0rem);
+        display: block;
+        height: 0.5rem;
+        margin-top: 1rem;
+      }
+      p {
+        margin: 1rem 0 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>example.com</h1>
+      <p>This site is under construction.</p>
+    </main>
+  </body>
 </html>
