@@ -484,7 +484,7 @@ hr {
     background: #fff url('../img/mclean.png');
     background-size: cover; }
   .tile.tile-64 .tile-inner {
-    background: #fff url('../img/langley.png');
+    background: #fff url('../img/langley.jpg');
     background-size: cover; }
   .tile.tile-128 .tile-inner {
     background: #fff url('../img/madison.png');
@@ -499,7 +499,7 @@ hr {
     background: #fff url('../img/tj.png');
     background-size: cover; }
   .tile.tile-2048 .tile-inner {
-    background: #fff url('../img/south lakes.jpg');
+    background: #fff url('../img/sl.jpg');
     background-size: cover; }
   .tile.tile-super .tile-inner {
     background: #fff url('../img/ryan.jpg');
