@@ -1,37 +1,5 @@
-body{
-    background: #1f253c;
-
-
 @import url(fonts/clear-sans.css);
-position: relative!important;
-}
-
-body:before {
-content: '';
-position: absolute;
-z-index: 2;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-pointer-events: none;
-background-image: url(https://divi.space/wp-content/uploads/2019/02/hearts.png);
-animation: falling-hearts 18s linear infinite;
-}
-@keyframes falling-hearts {
-0% {background-position: 0% 30%;}
-}
-
-@-moz-keyframes falling-hearts {
-0% {background-position: 0% 30%;}
-}
-
-@-webkit-keyframes falling-hearts {
-0% {background-position: 0% 30%;}
-}
-
 html, body {
-  
   margin: 0;
   padding: 0;
   background: url(https://scontent-a.xx.fbcdn.net/hphotos-prn2/t31.0-8/1502678_10100298599491097_828497142_o.jpg);
@@ -40,7 +8,6 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: #FF2727;
   color: black;
   color: #222;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
@@ -54,7 +21,7 @@ html, body {
 h1.title {
   font-size: 64px;
   font-weight: bold;
-  color: #FF2727;
+  color: #4169E1;
   margin: 0;
   display: block;
   float: left; }
@@ -136,13 +103,12 @@ h1.title {
   content: "Best"; }
 
 p {
-  color: white;
   margin-top: 0;
   margin-bottom: 10px;
   line-height: 1.65; }
 
 a {
-  color: #FF2727;
+  color: #4CBB17;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
@@ -152,13 +118,14 @@ strong.important {
 
 hr {
   border: none;
-  border-bottom: 1px solid #FF2727;
+  border-bottom: 1px solid #d8d4d0;
   margin: 15px 0; }
 
 .container {
   padding: 80px 150px;
-  background: #FF89C6;
-  border-top: 4px solid #FF2727;
+  background: #fff;
+  border: 1px solid #d8d4d0;
+  border-top: 4px solid #4CBB17;
   border-radius: 0px 0px 5px 5px;
   -moz-border-radius: 0px 0px 5px 5px;
   -webkit-box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.35);
